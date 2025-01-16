@@ -1,0 +1,15 @@
+<!--p-3 significa padding de 3, es una separación de 3 con todos los lados -->
+<!--col-12, es para que tome todo ese espacio -->
+<div class="row p-3">
+  <div class="col-12">
+    <!-- Búsqueda -->
+    <gifs-search-box></gifs-search-box>
+  </div>
+
+  <div class="col-12 pt-2">
+    <!-- Listado de Gifs -->
+    <!-- card-list, se tiene que declarar en GifsModule -->
+    <gifs-card-list [gifs]="gifs"></gifs-card-list>
+
+  </div>
+</div>
